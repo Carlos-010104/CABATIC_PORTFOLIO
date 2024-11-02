@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-page{
+    background-image: url(bg.png);
+    color: white;
+    font-family: sans-serif;
+    height: 100vh;
+    padding: 20px;
+    
+}
+    
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;  
+   
+}
+ 
+.navbar .logo{
+    width: 90px;
+    cursor: pointer;
+    margin-left: -2%;
+    float: left;
+    filter: saturate(2);
+}
+.home{
+    color: red;
+}
+ 
+ul{
+    margin-top: 1%;
+ 
+}
+ 
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+    letter-spacing: 1px;
+    margin: 0 50px;
+}
+ul li a{
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    margin-top: -3%;
+    transition: .4 ease;
+   
+}
+ 
+ul li a:hover{
+    color: red;
+}
+ 
+.info{
+    margin: 7%;
+    margin-top: 10%;
+    margin-right: 25%;
+    float: right;
+}
+ 
+.info h1{
+    margin-top: -5%;
+    font-size: 65px;
+    color: white;
+}
+ 
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: 300;
+   
+}
+ 
+.info span{
+    color: red;
+}
+ 
+.info h4{
+    font-size: 19px;
+    letter-spacing: 1px;  
+    position: absolute;
+    margin-top: 1%;
+    font-weight: 450;
+}
+ 
+.find{
+    font-weight: 450;
+    margin-top: 4%;
+    text-align: right;  
+    font-size: 19px;
+ 
+}
+.social-medias {
+    float: right;
+    margin-right: -13%;
+    margin-top: 1%;
+    letter-spacing: 3px;
+}
+ 
+.social-medias .logos{
+    width: 30px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+ 
+.social-medias .logos:hover{
+    color: rgb(255, 0, 0);
+    box-shadow: 0 1px 15px rgb(255, 0, 0);
+}
+ 
+.skills{
+    float: left;
+    margin-right: -8%;
+    margin-top: 1%;
+    letter-spacing: 3px;
+}
+ 
+.skills .lg{
+    width: 33px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+ 
+.skills .lg:hover{
+    color: rgb(255, 0, 0);
+    box-shadow: 0 1px 15px rgb(255, 0, 0);
+   
+}
+.profile{
+    width: 20%;
+    float: right;
+    margin-top: 8%;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 20px #ff0000; /* Red glow effect */
+    background-color: red;
+    border-radius: 50%;
+    
+}
+
+.profile:hover{
+    box-shadow: 0 1px 50px red;
+    
+}
+
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: red;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 400;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow:  0 0 5px red, 0 0 25px red;
+    margin-left: 10%;
+}
+
+.btn-box:hover{
+    box-shadow: 1px 1px 30px rgb(255, 0, 0);
+}
+
+.profile2{
+    width: 22%;
+    box-shadow: 0 0 20px #ff0000; /* Red glow effect */
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 120px;
+
+}
+.about-img {
+    position: relative;
+    top: 160px;
+   
+}
+.about{ 
+    background: rgb(6, 7, 15);
+    align-items: center;
+    max-width: 100%;
+    padding: 50px;
+    gap: 50px;
+    margin: 0;
+    height: 90vh;
+}
+.about-content{
+    max-width: 50%;
+}
+.about-content .heading{
+    margin-left: 10%;
+    margin-top: 1%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about-content h1{
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+.about-content h1 span{
+    color: red;
+}
+
+.about-content h3{
+    margin-left: 10%;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: -2%;
+}
+
+.about-content p{
+    margin-left: 10%;
+    color: white;
+    font-size: 23px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.about-content p span{
+    color: red;
+}
